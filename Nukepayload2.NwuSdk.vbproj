@@ -122,33 +122,7 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\CssInjectHelper.vb" />
-    <Compile Include="Common\PageAnalizer.vb" />
-    <Compile Include="Common\WebNotificationExtension.vb" />
-    <Compile Include="Common\LoginException.vb" />
-    <Compile Include="DoorSite\CardInformation.vb" />
-    <Compile Include="DoorSite\DoorSiteCookies.vb" />
-    <Compile Include="DoorSite\DoorSiteLogin.vb" />
-    <Compile Include="DoorSite\DoorSiteLogout.vb" />
-    <Compile Include="DoorSite\HeadmasterMailboxItem.vb" />
-    <Compile Include="DoorSite\MainPageAnalizer.vb" />
-    <Compile Include="DoorSite\MainPageAnalizeResult.vb" />
-    <Compile Include="DoorSite\PageURLs.vb" />
-    <Compile Include="Common\RequestHeaderHelper.vb" />
-    <Compile Include="EduAdminSys\ScheduleConsulter.vb" />
-    <Compile Include="DoorSite\UserCredential.vb" />
-    <Compile Include="DoorSite\SchoolNewsGroup.vb" />
-    <Compile Include="DoorSite\SystemNavigationItem.vb" />
-    <Compile Include="DoorSite\UserInformation.vb" />
-    <Compile Include="EduAdminSys\PageContent.vb" />
-    <Compile Include="EduAdminSys\LoginHelper.vb" />
-    <Compile Include="EduAdminSys\LoginInfo.vb" />
-    <Compile Include="EduAdminSys\ScoreConsulter.vb" />
-    <Compile Include="EduAdminSys\UserInfo.vb" />
-    <Compile Include="EduAdmin\JwcPageAnalizer.vb" />
-    <Compile Include="Common\TextLinkPair.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
-    <Compile Include="Common\Strings\RegularExpressionExtensions.vb" />
     <EmbeddedResource Include="My Project\Nukepayload2.NwuSdk.rd.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -181,10 +155,8 @@
     <Import Include="Windows.UI.Xaml.Media.Imaging" />
     <Import Include="Windows.UI.Xaml.Navigation" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="License.txt" />
-  </ItemGroup>
   <Import Project="..\Nukepayload2.MvvmHelper.WinRT\Nukepayload2.MvvmHelper.WinRT.projitems" Label="Shared" />
+  <Import Project="..\Nukepayload2.NwuSdk.Shared\Nukepayload2.NwuSdk.Shared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
